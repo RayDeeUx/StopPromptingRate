@@ -1,9 +1,9 @@
-#include <Geode/modify/AppController.hpp>
+#include <Geode/modify/PlatformToolbox.hpp>
 
 using namespace geode::prelude;
 
 class $modify(MyAppController, AppController) {
-	void promptForRating() {
-		if (!Mod::get()->getSettingValue<bool>("enabled")) AppController::promptForRating();
+	void tryShowRateDialog(gd::string fooBar) {
+		if (!Mod::get()->getSettingValue<bool>("enabled")) PlatformToolbox::tryShowRateDialog(fooBar);
 	}
 };
