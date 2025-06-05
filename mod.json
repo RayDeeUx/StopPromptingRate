@@ -1,17 +1,15 @@
 {
 	"geode": "4.4.0",
 	"gd": {
-		"win": "2.2074",
-		"mac": "2.2074",
 		"ios": "2.2074",
 		"android": "2.2074"
 	},
-	"id": "raydeeux.modname",
-	"name": "ModName",
+	"id": "raydeeux.stoppromptingrate",
+	"name": "StopPromptingRate",
 	"version": "v1.0.0",
 	"developer": "RayDeeUx",
-	"description": "Mod description.",
-	"repository": "https://github.com/RayDeeUx/ModName",
+	"description": "RobTop, if I wanted to give star ratings, I'd use Uber instead.",
+	"repository": "https://github.com/RayDeeUx/StopPromptingRate",
 	"settings": {
 		"enabled": {
 			"name": "Enabled",
@@ -20,11 +18,7 @@
 			"default": true
 		}
 	},
-	"resources": {
-		"sprites": [
-			"resources/*.png"
-		]
-	},
+	"tags": ["joke"],
 	"issues": {
 		"url": "https://discord.com/channels/911701438269386882/1205523212444639292",
 		"info": "Ping me <cl>(@erymanthus)</c> in the Geode SDK Discord server's <cl>#help</c> channel if you need help. <cr>DMs are NOT accepted.</c>"
