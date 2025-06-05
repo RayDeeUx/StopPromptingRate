@@ -2,7 +2,7 @@
 
 using namespace geode::prelude;
 
-class $modify(MyAppController, AppController) {
+class $modify(MyPlatformToolbox, PlatformToolbox) {
 	void tryShowRateDialog(gd::string fooBar) {
 		if (!Mod::get()->getSettingValue<bool>("enabled")) PlatformToolbox::tryShowRateDialog(fooBar);
 	}
